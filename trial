@@ -11,3 +11,10 @@ def sum(n):
         return n
     return sum(n-1)+n
 print(sum(4))
+
+
+def power(a,n):
+    if n == 0:
+        return 1
+    return power(a,n-1)*a
+print(power(2,3))
